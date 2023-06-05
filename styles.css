@@ -1,0 +1,116 @@
+Copy code
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #9DC08B;
+}
+
+header {
+  background-color: #657d58;
+ 
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 23px;
+  align-items: center;
+  
+}
+ header img { 
+  width: 110px;
+height: 110px;
+align-items: center;
+margin-left: 100px;
+}
+
+header h2 {
+  margin-left: 50px;
+}
+
+nav {
+  display: flex;
+  
+  align-items: center;
+ 
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 5px;
+  margin-left: 250px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #EDF1D6;
+ 
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 50;
+  margin-bottom: 70px;
+  align-items: center;
+}
+
+.employee-card {
+  background-color: #9DC08B;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 190px;
+  
+  font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.employee-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.employee-details {
+  flex-grow: 1;
+}
+
+.employee-details p {
+  margin-right: 8px;
+  margin-left: 8px;
+ 
+}
+
+footer {
+  background-color: #40513B;
+  padding: 10px;
+  color: #fffffff2;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+  
+}
+
+footer ul li {
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #ffffffe2;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
